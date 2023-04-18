@@ -3,52 +3,45 @@
 }
 
 .label {
-    background-color: rgb(255, 255, 255);
+    background-color: #C3BBF0;
     font-size: 25px;
     border: solid 3px black;
     text-align: center;
 }
 
 .frontlabel {
-    font-size : 35px;
-    padding-left : 150px;
-    margin-top: 300px;
+    color: #F0DFD3;
+    text-align: center;
+    font-size : 50px;
+    margin-top: center;
     font-family :Arial;
     font-weight: bold;
 }
 
 .minorlabel {
     font-size : 20px;
-    padding-left : 290px;
+    color: #F0DFD3;
+    text-align: center;
     font-family :Arial;
-    margin-top: 50px;
-    margin-bottom: -50px;
-   
-}
-
-.container {
-    background-color: C3BBF0;
-    width: 560px;
-    height: 375px;
-    margin-left: 500px;
-    margin-top: -140px;
-    
-}
-
-.container3 {
-    width: 560px;
-    height: 50px;
-    background-color: #A6F0A3;
-    padding-bottom: -50px;
    
     
 }
 
-.container2{
-    background-color: 77A775;
-    width: 560px;
-    height: 50%;
+.containerindex {
+    background-color: #C3BBF0;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+.column0 {
+    flex:1; 
+    float: center;
+    width: 100%;
+}
+
 
 .linklabel {
     font-size : 20px;
