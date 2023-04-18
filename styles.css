@@ -1,3 +1,171 @@
 .site-background {
-    background : rgb(235, 59, 205);
+    background-color :776FA3;
+}
+
+.label {
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    border: solid 3px black;
+    text-align: center;
+}
+
+.frontlabel {
+    font-size : 35px;
+    padding-left : 150px;
+    margin-top: 300px;
+    font-family :Arial;
+    font-weight: bold;
+}
+
+.minorlabel {
+    font-size : 20px;
+    padding-left : 290px;
+    font-family :Arial;
+    margin-top: 50px;
+    margin-bottom: -50px;
+   
+}
+
+.container {
+    background-color: C3BBF0;
+    width: 560px;
+    height: 375px;
+    margin-left: 500px;
+    margin-top: -140px;
+    
+}
+
+.container3 {
+    width: 560px;
+    height: 50px;
+    background-color: #A6F0A3;
+    padding-bottom: -50px;
+   
+    
+}
+
+.container2{
+    background-color: 77A775;
+    width: 560px;
+    height: 50%;
+}
+
+.linklabel {
+    font-size : 20px;
+    text-align: center;
+    font-family :Arial;
+    margin-left: -25px;
+    padding-top: 50px;
+}
+
+.image {
+    width: 100%;
+    padding-top: -500px;
+}
+ 
+.image2{
+    width: 100%;
+    padding-top: -500px;
+   
+}
+
+.titleabt {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    color: #F0DFD3;
+}
+
+.containerabt {
+    background-color: #C3BBF0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column1 {
+    flex:1; 
+    float: left;
+    width: 30%;
+}
+
+.column2 {
+    flex:1;
+    float: center;
+    width: 30%;
+}
+
+.column3 {
+    flex:1;
+    float: right;
+    width: 30%;
+}
+
+.abtmetxt{
+    text-align: center;
+    color: #F0DFD3;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.abtmetxt2{
+    text-align: center;
+    color: #F0DFD3;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.theo {
+    width: 100%;
+    padding-top: -500px;
+}
+
+.containerpro {
+    background-color: #C3BBF0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column4 {
+    flex:1; 
+    float: left;
+    width: 50%;
+}
+
+.column5 {
+    flex:1;
+    float: right;
+    width: 50%;
+}
+
+.protext{
+    text-align: center;
+    color: #F0DFD3;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.moonvally {
+    width: 100%;
+    padding-top: -500px;
+}
+
+.betterparking{
+    width: 100%;
+    padding-top: -500px;
+}
+
+.prodes {
+    text-align: center;
+    color: #F0DFD3;
+    font-size: 15px;
+    font-family: Arial;
 }
