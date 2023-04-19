@@ -2,11 +2,27 @@
     background-color :776FA3;
 }
 
+.column0 {
+    flex:1; 
+    float: center;
+    height: 100%;
+}
+
 .label {
     background-color: #C3BBF0;
+    border: solid 5px #8977ee;
     font-size: 25px;
-    border: solid 3px black;
     text-align: center;
+    
+}
+
+.containerlabel {
+    background-color: #C3BBF0;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .frontlabel {
@@ -22,24 +38,17 @@
     font-size : 20px;
     color: #F0DFD3;
     text-align: center;
-    font-family :Arial;
-   
-    
+    font-family :Arial;    
 }
 
 .containerindex {
     background-color: #C3BBF0;
-    margin-top: 250px;
+    border: solid 5px #8977ee;
+    margin-top: 175px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.column0 {
-    flex:1; 
-    float: center;
-    width: 100%;
 }
 
 
@@ -119,6 +128,7 @@
 
 .containerpro {
     background-color: #C3BBF0;
+    border: solid 5px #8977ee;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
